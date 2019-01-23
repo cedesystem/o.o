@@ -3,11 +3,11 @@ public class Podziel_N_M {
     public static void main(String args[]) {
         Scanner DANE = new Scanner(System.in);
         int i=0,j = 0,d=0,r=0,s, k = 1,l=1, liczn, liczm;
-        int n[] = new int[100000000]; // tablica do obsługi liczby N
-        int nt[]= new int[10000000]; // tablica z ponumerowanymi rosnąco kolejnymi podzielnikami liczby N
-        int m[] = new int[100000000];// tablica do obsługi liczby M
-        int mt[]= new int[10000000]; // tablica z  ponumerowanymi rosnąco kolejnymi podzielnikami liczby M
-        int wsp[]= new int[10000000];//tablica do zapisania wspólnych podzielników liczb N i M
+        int n[] = new int[]; // tablica do obsługi liczby N
+        int nt[]= new int[]; // tablica z ponumerowanymi rosnąco kolejnymi podzielnikami liczby N
+        int m[] = new int[];// tablica do obsługi liczby M
+        int mt[]= new int[]; // tablica z  ponumerowanymi rosnąco kolejnymi podzielnikami liczby M
+        int wsp[]= new int[];//tablica do zapisania wspólnych podzielników liczb N i M
         int ws; // zmienna do zamiany miejscami w tablicy wsp - wybranie największego wsp.podziel.
         int u,w;// liczba podzielników odpowiednio dla N i M
         int b;//liczba kroków rozwiązań
